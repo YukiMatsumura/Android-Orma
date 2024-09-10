@@ -6,7 +6,3 @@ sourceCompatibility = JavaVersion.VERSION_1_8
 dependencies {
     compileOnly "androidx.annotation:annotation:${ANDROIDX_ANNOTATION_VERSION}"
 }
-
-archivesBaseName = 'orma-annotations'
-metadata.desc = 'Annotations for Orma'
-apply from: "${project.rootDir}/publish.gradle"

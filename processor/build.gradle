@@ -17,7 +17,3 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     testImplementation 'com.google.testing.compile:compile-testing:0.10'
 }
-
-archivesBaseName = 'orma-processor'
-metadata.desc = 'An annotation processor for Ormat to generate schema representations'
-apply from: "${project.rootDir}/publish.gradle"
