@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
 
 android {
     compileSdkVersion SDK_VERSION
@@ -81,7 +80,3 @@ dependencies {
     androidTestImplementation 'io.reactivex.rxjava2:rxjava:2.2.2'
     androidTestImplementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
 }
-
-archivesBaseName = 'orma'
-metadata.desc = 'A lightning-fast ORM for Android'
-apply from: "${project.rootDir}/publish.gradle"

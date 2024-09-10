@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
 
 android {
     compileSdkVersion SDK_VERSION
@@ -45,7 +44,3 @@ dependencies {
     // https://github.com/sqlcipher/android-database-sqlcipher
     implementation 'net.zetetic:android-database-sqlcipher:4.3.0'
 }
-
-archivesBaseName = 'orma-encryption'
-metadata.desc = 'Encryption support for Android-Orma'
-apply from: "${project.rootDir}/publish.gradle"
